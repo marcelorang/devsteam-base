@@ -8,7 +8,7 @@ export default function Navbar() {
            <Logo/> 
             <input/>
            <BsCart4 size={40} />
-           <div></div>
+           
         </nav>
     )
 }
