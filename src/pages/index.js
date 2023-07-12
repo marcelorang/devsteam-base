@@ -28,7 +28,12 @@ export default function Home() {
        
        <div>
        <Subtile className={styles.session}>Outros Jogos</Subtile>
-        <div>
+        <div className={styles.gamecontainer}>
+        <GameCard />
+        <GameCard />
+        <GameCard />
+        <GameCard />
+        <GameCard />
         <GameCard />
         </div>  
        </div>
