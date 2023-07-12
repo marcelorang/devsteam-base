@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Navbar from '@/components/navbar/navbar'
-
+import Subtile from '@/components/tipography/subtitle/subtitle'
+import Container from '@/components/container/container'
 export default function Home() {
   return (
     <>
@@ -12,6 +13,15 @@ export default function Home() {
       </Head>
       <div>
        <Navbar />
+       <Container>
+       <div>
+       <Subtile>Promoções</Subtile>
+       </div>
+       
+       <div>
+       <Subtile>Outros Jogos</Subtile>
+       </div>
+       </Container>
       </div>
     </>
   )
