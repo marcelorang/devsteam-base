@@ -4,6 +4,7 @@ import Subtile from '@/components/tipography/subtitle/subtitle'
 import Container from '@/components/container/container'
 import SaleCard from '@/components/cards/saleCard/saleCard'
 import styles from '@/styles/index.module.css'
+import GameCard from '@/components/cards/gameCard/gameCard'
 export default function Home() {
   return (
     <>
@@ -27,6 +28,9 @@ export default function Home() {
        
        <div>
        <Subtile className={styles.session}>Outros Jogos</Subtile>
+        <div>
+        <GameCard />
+        </div>  
        </div>
        </Container>
       </div>
